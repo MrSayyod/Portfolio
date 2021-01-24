@@ -1,0 +1,90 @@
+/* body {
+  background-color: beige; */
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  line-height: 60px;
+}
+
+.logo {
+  font-size: 4rem;
+  font-weight: bold;
+  animation-name: rainbow;
+  animation-duration: 5s;
+}
+
+span {
+  font-size: 30px;
+}
+ .center-nav ul li:hover {
+   background-color: #f0f0f0;
+ }
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  15% {
+    color: orange;
+  }
+  30% {
+    color: yellow;
+  }
+  45% {
+    color: green;
+  }
+  60% {
+    color: blue;
+  }
+  75% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+.logo, .center-nav ul li a {
+  color: #525354
+}
+
+.fab {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.fa-facebook-square:hover {
+  color: #4267B2;
+}
+
+.fa-twitter-square:hover {
+  color: #1dA1F2;
+}
+
+.fa-instagram:hover {
+  color: #C13584;
+}
+
+.fa-linkedin:hover {
+  color: #2867B2;
+}
+
+img {
+  max-width: 20%;
+  height: 20%;
+}
+
+.for-background {
+  background-image: url(https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+}
+
+* {
+  border: 1px solid green;
+}
