@@ -1,14 +1,17 @@
 main {
-  background-image: url(https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60);
+  background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg);
   /* background-image: linear-gradient(to bottom,  rgba(52, 53, 54, 0.8),  rgba(52, 53, 54, 0.1)), url(https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60); */
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 75vh;
+  background-position: center;
+  /* min-height: max-content; */
+  flex: 1;
+  min-height: 86vh;
 }
 
-header {
+header, footer {
   z-index: 9999;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 main::before {
@@ -16,29 +19,40 @@ main::before {
   position: absolute;
   top: 60px;
   left: 0;
-  bottom: 0;
+  bottom: 6.5%;
   right: 0;
   z-index: 1;
   /* overflow: hidden; */
-  background-color: rgba(52, 53, 54, 0.6);
+  background-color: rgba(4, 41, 71, 0.8);
 }
 
-cite {
+.quote {
   font-family: 'Dancing Script', cursive;
   ;
+  font-size: 2.5rem;
 }
 
 main * {
   z-index: 2;
 }
 
+footer {
+  /* align-items: center; */
+  background-color: #343635;
+}
+
 /* body {
   background-color: beige;
 } */
 
-p, h1 {
+p, h1, cite, footer ul li a {
   color: white;
 }
+
+.col-6 p {
+  font-size: 1.5rem;
+}
+
 
 a {
   text-decoration: none;
@@ -53,11 +67,18 @@ nav {
   font-weight: bold;
   animation-name: rainbow;
   animation-duration: 5s;
+  animation-iteration-count: infinite;
+  font-family: 'Bodoni Moda', serif;
 }
 
 span {
   font-size: 30px;
 }
+
+.center-nav {
+  left: 5%;
+}
+
  .center-nav ul li:hover {
    background-color: #f0f0f0;
  }
@@ -113,8 +134,9 @@ span {
 
 .for-photo {
   top: 8%;
-  left: 10%;
-  width: 15rem;
+  /* left: 10%; */
+  left: 48%;
+  width: 18rem;
   height: 10rem;
 }
 
@@ -124,8 +146,10 @@ img {
 }
 
 .for-text {
-  bottom: 28%;
-  left: 3.5rem;
+  bottom: 40%;
+  /* bottom: 0; */
+  /* left: 3.5rem; */
+  right: 0;
 }
 
 h1 {
