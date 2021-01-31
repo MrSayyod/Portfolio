@@ -96,3 +96,25 @@ h1 {
   letter-spacing: 1rem;
   background-color: #008073;
 }
+
+.with_hover_effects {
+  transform: scale(1.01);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: ease 1s;
+}
+
+.html:hover {
+  box-shadow: 2px -2px 22px 0px #e34c26;
+}
+
+.ruby:hover {
+  box-shadow: 2px -2px 22px 0px #820C02;
+}
+
+.rails:hover {
+  box-shadow: 2px -2px 22px 0px #cc0000;
+}
+/* * {
+  border: 1px solid red;
+} */
