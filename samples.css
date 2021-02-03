@@ -1,4 +1,5 @@
-header, footer {
+header,
+footer {
   z-index: 9999;
 }
 
@@ -6,13 +7,13 @@ footer {
   background-color: #343635;
 }
 
+a {
+  text-decoration: none;
+}
+
 footer p,
 footer ul li a {
   color: white;
-}
-
-a {
-  text-decoration: none;
 }
 
 nav {
@@ -36,36 +37,43 @@ span {
   left: 5%;
 }
 
- .center-nav ul li:hover {
-   background-color: #f0f0f0;
- }
+.center-nav ul li:hover {
+  background-color: #f0f0f0;
+}
 
 @keyframes rainbow {
   0% {
     color: red;
   }
+
   15% {
     color: orange;
   }
+
   30% {
     color: yellow;
   }
+
   45% {
     color: green;
   }
+
   60% {
     color: blue;
   }
+
   75% {
     color: indigo;
   }
+
   100% {
     color: violet;
   }
 }
 
-.logo, .center-nav ul li a {
-  color: #525354
+.logo,
+.center-nav ul li a {
+  color: #525354;
 }
 
 .fab {
@@ -74,19 +82,19 @@ span {
 }
 
 .fa-facebook-square:hover {
-  color: #4267B2;
+  color: #4267b2;
 }
 
 .fa-twitter-square:hover {
-  color: #1dA1F2;
+  color: #1da1f2;
 }
 
 .fa-instagram:hover {
-  color: #C13584;
+  color: #c13584;
 }
 
 .fa-linkedin:hover {
-  color: #2867B2;
+  color: #2867b2;
 }
 
 h1 {
@@ -105,16 +113,17 @@ h1 {
 }
 
 .html:hover {
-  box-shadow: 2px -2px 22px 0px #e34c26;
+  box-shadow: 2px -2px 22px 0 #e34c26;
 }
 
 .ruby:hover {
-  box-shadow: 2px -2px 22px 0px #820C02;
+  box-shadow: 2px -2px 22px 0 #820c02;
 }
 
 .rails:hover {
-  box-shadow: 2px -2px 22px 0px #cc0000;
+  box-shadow: 2px -2px 22px 0 #c00;
 }
+
 /* * {
   border: 1px solid red;
 } */

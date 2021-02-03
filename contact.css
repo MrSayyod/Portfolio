@@ -1,4 +1,5 @@
-header, footer {
+header,
+footer {
   z-index: 9999;
 }
 
@@ -6,13 +7,13 @@ footer {
   background-color: #343635;
 }
 
+a {
+  text-decoration: none;
+}
+
 footer p,
 footer ul li a {
   color: white;
-}
-
-a {
-  text-decoration: none;
 }
 
 nav {
@@ -36,36 +37,43 @@ span {
   left: 5%;
 }
 
- .center-nav ul li:hover {
-   background-color: #f0f0f0;
- }
+.center-nav ul li:hover {
+  background-color: #f0f0f0;
+}
 
 @keyframes rainbow {
   0% {
     color: red;
   }
+
   15% {
     color: orange;
   }
+
   30% {
     color: yellow;
   }
+
   45% {
     color: green;
   }
+
   60% {
     color: blue;
   }
+
   75% {
     color: indigo;
   }
+
   100% {
     color: violet;
   }
 }
 
-.logo, .center-nav ul li a {
-  color: #525354
+.logo,
+.center-nav ul li a {
+  color: #525354;
 }
 
 .fab {
@@ -74,19 +82,19 @@ span {
 }
 
 .fa-facebook-square:hover {
-  color: #4267B2;
+  color: #4267b2;
 }
 
 .fa-twitter-square:hover {
-  color: #1dA1F2;
+  color: #1da1f2;
 }
 
 .fa-instagram:hover {
-  color: #C13584;
+  color: #c13584;
 }
 
 .fa-linkedin:hover {
-  color: #2867B2;
+  color: #2867b2;
 }
 
 h1 {
@@ -101,21 +109,6 @@ h1 {
   font-family: 'Sansita Swashed', cursive;
   font-size: 2rem;
 }
-
-/* main::before {
-  background: url(https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000_1280.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  opacity: 0.2;
-  content: "";
-  position: absolute;
-  top: 80px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 0;
-} */
 
 main {
   min-height: 86vh;
@@ -133,6 +126,3 @@ main .container-fluid div a {
   font-size: large;
   margin-left: 1rem;
 }
-/* * {
-  border: 1px solid red;
-} */

@@ -1,17 +1,15 @@
 main {
   background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg);
-  /* background-image: linear-gradient(to bottom,  rgba(52, 53, 54, 0.8),  rgba(52, 53, 54, 0.1)), url(https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* min-height: max-content; */
   flex: 1;
   min-height: 86vh;
 }
 
-header, footer {
+header,
+footer {
   z-index: 9999;
-  /* overflow: hidden; */
 }
 
 main::before {
@@ -22,13 +20,11 @@ main::before {
   bottom: 6.5%;
   right: 0;
   z-index: 1;
-  /* overflow: hidden; */
   background-color: rgba(4, 41, 71, 0.8);
 }
 
 .quote {
   font-family: 'Dancing Script', cursive;
-  ;
   font-size: 2.5rem;
 }
 
@@ -37,25 +33,22 @@ main * {
 }
 
 footer {
-  /* align-items: center; */
   background-color: #343635;
 }
 
-/* body {
-  background-color: beige;
-} */
+a {
+  text-decoration: none;
+}
 
-p, h1, cite, footer ul li a {
+p,
+h1,
+cite,
+footer ul li a {
   color: white;
 }
 
 .col-6 p {
   font-size: 1.5rem;
-}
-
-
-a {
-  text-decoration: none;
 }
 
 nav {
@@ -79,36 +72,43 @@ span {
   left: 5%;
 }
 
- .center-nav ul li:hover {
-   background-color: #f0f0f0;
- }
+.center-nav ul li:hover {
+  background-color: #f0f0f0;
+}
 
 @keyframes rainbow {
   0% {
     color: red;
   }
+
   15% {
     color: orange;
   }
+
   30% {
     color: yellow;
   }
+
   45% {
     color: green;
   }
+
   60% {
     color: blue;
   }
+
   75% {
     color: indigo;
   }
+
   100% {
     color: violet;
   }
 }
 
-.logo, .center-nav ul li a {
-  color: #525354
+.logo,
+.center-nav ul li a {
+  color: #525354;
 }
 
 .fab {
@@ -117,38 +117,30 @@ span {
 }
 
 .fa-facebook-square:hover {
-  color: #4267B2;
+  color: #4267b2;
 }
 
 .fa-twitter-square:hover {
-  color: #1dA1F2;
+  color: #1da1f2;
 }
 
 .fa-instagram:hover {
-  color: #C13584;
+  color: #c13584;
 }
 
 .fa-linkedin:hover {
-  color: #2867B2;
+  color: #2867b2;
 }
 
 .for-photo {
   top: 8%;
-  /* left: 10%; */
   left: 48%;
   width: 18rem;
   height: 10rem;
 }
 
-img {
-  /* max-width: 100%; */
-  /* height: 20%; */
-}
-
 .for-text {
   bottom: 40%;
-  /* bottom: 0; */
-  /* left: 3.5rem; */
   right: 0;
 }
 
@@ -156,8 +148,4 @@ h1 {
   font-family: 'Sansita Swashed', cursive;
   font-weight: 900;
   font-size: 60px;
-}
-
-* {
-  /* border: 1px solid green; */
 }
