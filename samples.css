@@ -97,7 +97,8 @@ span {
   color: #2867b2;
 }
 
-h1 {
+h1,
+h2 {
   font-family: 'Bodoni Moda', serif;
   font-weight: 900;
   font-size: 60px;
