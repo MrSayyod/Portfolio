@@ -1,0 +1,138 @@
+header, footer {
+  z-index: 9999;
+}
+
+footer {
+  background-color: #343635;
+}
+
+footer p,
+footer ul li a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  line-height: 60px;
+}
+
+.logo {
+  font-size: 4rem;
+  font-weight: bold;
+  animation-name: rainbow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  font-family: 'Bodoni Moda', serif;
+}
+
+span {
+  font-size: 30px;
+}
+
+.center-nav {
+  left: 5%;
+}
+
+ .center-nav ul li:hover {
+   background-color: #f0f0f0;
+ }
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  15% {
+    color: orange;
+  }
+  30% {
+    color: yellow;
+  }
+  45% {
+    color: green;
+  }
+  60% {
+    color: blue;
+  }
+  75% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+.logo, .center-nav ul li a {
+  color: #525354
+}
+
+.fab {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.fa-facebook-square:hover {
+  color: #4267B2;
+}
+
+.fa-twitter-square:hover {
+  color: #1dA1F2;
+}
+
+.fa-instagram:hover {
+  color: #C13584;
+}
+
+.fa-linkedin:hover {
+  color: #2867B2;
+}
+
+h1 {
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: 1rem;
+  background-color: #008073;
+}
+
+[class="container-fluid text-center"] {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 2rem;
+}
+
+/* main::before {
+  background: url(https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.2;
+  content: "";
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+} */
+
+main {
+  min-height: 86vh;
+  z-index: 1;
+  background-color: aliceblue;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+main .container-fluid div p,
+main .container-fluid div a {
+  font-size: large;
+  margin-left: 1rem;
+}
+/* * {
+  border: 1px solid red;
+} */
