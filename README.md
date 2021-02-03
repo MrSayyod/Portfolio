@@ -8,7 +8,7 @@
 3. **Bootstrap**
 
 # Live Demo 
-[Click For Live Page](https://raw.githack.com/MrSayyod/Portfolio/development/index.html)
+[Click For Live Page](https://github.com/MrSayyod/Portfolio/blob/development/index.html)
 
 # Getting Started
 To get a local copy up and running follow these simple example steps:
