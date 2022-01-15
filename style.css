@@ -149,3 +149,7 @@ h1 {
   font-weight: 900;
   font-size: 60px;
 }
+
+.left-footer ul li a i {
+  color: #fff
+}

@@ -126,3 +126,7 @@ main .container-fluid div a {
   font-size: large;
   margin-left: 1rem;
 }
+
+.left-footer ul li a i {
+  color: #fff
+}
