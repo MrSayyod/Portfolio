@@ -1,0 +1,194 @@
+@media (min-width: 1024px) {
+  main {
+    background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    min-height: 84vh;
+  }
+
+  .user-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  main {
+    background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    min-height: 100vh;
+  }
+
+  .user-image {
+    width: 75%;
+  }
+}
+
+header,
+footer {
+  z-index: 9999;
+}
+
+main::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  bottom: 7.5%;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  background-color: rgba(4, 41, 71, 0.8);
+}
+
+@media (max-width: 786px) {
+  main::before {
+    content: "";
+    min-height: 126vh;
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 1;
+    background-color: rgba(4, 41, 71, 0.8);
+  }
+
+  .user-image {
+    width: 50%;
+  }
+}
+
+.quote {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+}
+
+main * {
+  z-index: 2;
+}
+
+footer {
+  background-color: #343635;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+cite,
+footer ul li a {
+  color: white;
+}
+
+.col-6 p {
+  font-size: 1.5rem;
+}
+
+nav {
+  line-height: 60px;
+}
+
+.logo {
+  font-size: 4rem;
+  font-weight: bold;
+  animation-name: rainbow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  font-family: 'Bodoni Moda', serif;
+}
+
+span {
+  font-size: 30px;
+}
+
+.center-nav {
+  left: 5%;
+}
+
+.center-nav ul li:hover {
+  background-color: #f0f0f0;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+
+  15% {
+    color: orange;
+  }
+
+  30% {
+    color: yellow;
+  }
+
+  45% {
+    color: green;
+  }
+
+  60% {
+    color: blue;
+  }
+
+  75% {
+    color: indigo;
+  }
+
+  100% {
+    color: violet;
+  }
+}
+
+.logo,
+.center-nav ul li a {
+  color: #525354;
+}
+
+.fab {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.fa-facebook-square:hover {
+  color: #4267b2;
+}
+
+.fa-twitter-square:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #c13584;
+}
+
+.fa-linkedin:hover {
+  color: #2867b2;
+}
+
+.fa-bars {
+  color: orange;
+  font-size: 1.5rem;
+  margin-left: 4rem;
+}
+
+h1 {
+  font-family: 'Sansita Swashed', cursive;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.left-footer ul li a i {
+  color: #fff;
+}
+
+}

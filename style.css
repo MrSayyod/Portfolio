@@ -1,78 +1,6 @@
-@media (min-width: 1024px) {
-  main {
-    background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex: 1;
-    min-height: 84vh;
-  }
-
-  .user-image {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1024px) {
-  main {
-    background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex: 1;
-    min-height: 100vh;
-  }
-
-  .user-image {
-    width: 75%;
-  }
-}
-
 header,
 footer {
   z-index: 9999;
-}
-
-main::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 60px;
-  left: 0;
-  bottom: 7.5%;
-  right: 0;
-  z-index: 1;
-  opacity: 1;
-  background-color: rgba(4, 41, 71, 0.8);
-}
-
-@media (max-width: 786px) {
-  main::before {
-    content: "";
-    min-height: 126vh;
-    display: block;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-    opacity: 1;
-    background-color: rgba(4, 41, 71, 0.8);
-  }
-
-  .user-image {
-    width: 50%;
-  }
-}
-
-.quote {
-  font-family: 'Dancing Script', cursive;
-  font-size: 2.5rem;
-}
-
-main * {
-  z-index: 2;
 }
 
 footer {
@@ -83,15 +11,9 @@ a {
   text-decoration: none;
 }
 
-p,
-h1,
-cite,
+footer p,
 footer ul li a {
   color: white;
-}
-
-.col-6 p {
-  font-size: 1.5rem;
 }
 
 nav {
@@ -181,14 +103,35 @@ span {
   margin-left: 4rem;
 }
 
-h1 {
-  font-family: 'Sansita Swashed', cursive;
+h1,
+h2 {
+  font-family: 'Bodoni Moda', serif;
   font-weight: 900;
   font-size: 60px;
+  letter-spacing: 1rem;
+  background-color: #008073;
+}
+
+.with_hover_effects {
+  transform: scale(1.01);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: ease 1s;
+}
+
+.html:hover {
+  box-shadow: 2px -2px 22px 0 #e34c26;
+}
+
+.ruby:hover {
+  box-shadow: 2px -2px 22px 0 #820c02;
+}
+
+.rails:hover {
+  box-shadow: 2px -2px 22px 0 #c00;
 }
 
 .left-footer ul li a i {
   color: #fff;
 }
 
-}
