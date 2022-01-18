@@ -1,10 +1,23 @@
-main {
-  background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  flex: 1;
-  min-height: 84vh;
+@media(min-width: 1024px) {
+  main {
+    background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    min-height: 84vh;
+  }
+}
+
+@media(max-width: 1024px) {
+  main {
+    background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    min-height: 120vh;
+  }
 }
 
 header,
@@ -14,13 +27,33 @@ footer {
 
 main::before {
   content: "";
+  display: block;
   position: absolute;
   top: 60px;
   left: 0;
   bottom: 7.5%;
   right: 0;
   z-index: 1;
+  opacity: 1;
   background-color: rgba(4, 41, 71, 0.8);
+}
+
+@media(max-width:786px) {
+  main::before {
+    content: "";
+    min-height: 120vh;
+    /* display: block; */
+    /* position: absolute;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    z-index: 1;
+    opacity: 1;
+    background-color: rgba(4, 41, 71, 0.8);
+  }
+}
+  
 }
 
 .quote {
@@ -133,15 +166,15 @@ span {
 }
 
 .for-photo {
-  top: 8%;
-  left: 48%;
-  width: 18rem;
-  height: 10rem;
+  /* top: 8%;
+  left: 48%; */
+  /* width: 17rem; */
+  /* height: 10rem; */
 }
 
 .for-text {
-  bottom: 11rem;
-  right: -2rem;
+  /* bottom: 11rem;
+  right: -2rem; */
 }
 
 h1 {
@@ -152,4 +185,8 @@ h1 {
 
 .left-footer ul li a i {
   color: #fff
+}
+
+.hey *{
+  border: 1px solid green;
 }
