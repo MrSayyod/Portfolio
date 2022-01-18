@@ -1,4 +1,4 @@
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
   main {
     background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg);
     background-size: cover;
@@ -7,13 +7,13 @@
     flex: 1;
     min-height: 84vh;
   }
-  
+
   .user-image {
     width: 100%;
   }
 }
 
-@media(max-width: 1024px) {
+@media (max-width: 1024px) {
   main {
     background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg);
     background-size: cover;
@@ -46,11 +46,13 @@ main::before {
   background-color: rgba(4, 41, 71, 0.8);
 }
 
-@media(max-width:786px) {
+@media (max-width: 786px) {
   main::before {
     content: "";
     min-height: 120vh;
+
     /* display: block; */
+
     /* position: absolute;
     top: 60px;
     left: 0;
@@ -64,8 +66,6 @@ main::before {
   .user-image {
     width: 50%;
   }
-}
-  
 }
 
 .quote {
@@ -183,18 +183,6 @@ span {
   margin-left: 4rem;
 }
 
-.for-photo {
-  /* top: 8%;
-  left: 48%; */
-  /* width: 17rem; */
-  /* height: 10rem; */
-}
-
-.for-text {
-  /* bottom: 11rem;
-  right: -2rem; */
-}
-
 h1 {
   font-family: 'Sansita Swashed', cursive;
   font-weight: 900;
@@ -202,9 +190,7 @@ h1 {
 }
 
 .left-footer ul li a i {
-  color: #fff
+  color: #fff;
 }
 
-.hey *{
-  border: 1px solid green;
 }
