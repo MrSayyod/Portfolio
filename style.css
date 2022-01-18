@@ -7,6 +7,10 @@
     flex: 1;
     min-height: 84vh;
   }
+  
+  .user-image {
+    width: 100%;
+  }
 }
 
 @media(max-width: 1024px) {
@@ -17,6 +21,10 @@
     background-position: center;
     flex: 1;
     min-height: 120vh;
+  }
+
+  .user-image {
+    width: 75%;
   }
 }
 
@@ -51,6 +59,10 @@ main::before {
     z-index: 1;
     opacity: 1;
     background-color: rgba(4, 41, 71, 0.8);
+  }
+
+  .user-image {
+    width: 50%;
   }
 }
   
