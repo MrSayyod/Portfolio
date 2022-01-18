@@ -20,7 +20,7 @@
     background-repeat: no-repeat;
     background-position: center;
     flex: 1;
-    min-height: 100vh;
+    min-height: 84vh;
   }
 
   .user-image {
@@ -49,10 +49,11 @@ main::before {
 @media (max-width: 786px) {
   main::before {
     content: "";
-    min-height: 126vh;
+    min-height: 105vh;
+    /* height: 100vh; */
     display: block;
     position: absolute;
-    top: 60px;
+    top: 4.5rem;
     left: 0;
     bottom: 0;
     right: 0;
@@ -191,4 +192,6 @@ h1 {
   color: #fff;
 }
 
+* {
+  border: 1px solid green
 }
