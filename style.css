@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: small;
+}
+
 footer p,
 footer ul li a {
   color: white;
@@ -149,4 +153,10 @@ h2 {
 
 .left-footer ul li a i {
   color: #fff;
+}
+
+.project_image {
+  height: 15rem;
+  margin: 0;
+  padding: 0;
 }
