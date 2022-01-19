@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     flex: 1;
-    min-height: 84vh;
+    min-height: 88vh;
   }
 
   .user-image {
@@ -18,7 +18,7 @@
     position: absolute;
     top: 3.7rem;
     left: 0;
-    bottom: 5rem;
+    bottom: 3.4rem;
     right: 0;
     z-index: 1;
     opacity: 1;
@@ -38,6 +38,19 @@
 
   .user-image {
     width: 75%;
+  }
+
+  main::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    bottom: 5rem;
+    right: 0;
+    z-index: 1;
+    opacity: 1;
+    background-color: rgba(4, 41, 71, 0.8);
   }
 }
 
