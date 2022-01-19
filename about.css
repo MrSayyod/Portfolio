@@ -11,6 +11,19 @@
   .user-image {
     width: 100%;
   }
+
+  main::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    bottom: 5rem;
+    right: 0;
+    z-index: 1;
+    opacity: 1;
+    background-color: rgba(4, 41, 71, 0.8);
+  }
 }
 
 @media (max-width: 1024px) {
@@ -33,27 +46,13 @@ footer {
   z-index: 9999;
 }
 
-main::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 60px;
-  left: 0;
-  bottom: 7.5%;
-  right: 0;
-  z-index: 1;
-  opacity: 1;
-  background-color: rgba(4, 41, 71, 0.8);
-}
-
-@media (max-width: 786px) {
+@media (max-width: 576px) {
   main::before {
     content: "";
-    min-height: 105vh;
-    /* height: 100vh; */
+    min-height: 103vh;
     display: block;
     position: absolute;
-    top: 4.5rem;
+    top: 3.7rem;
     left: 0;
     bottom: 0;
     right: 0;
@@ -190,8 +189,4 @@ h1 {
 
 .left-footer ul li a i {
   color: #fff;
-}
-
-* {
-  border: 1px solid green
 }
