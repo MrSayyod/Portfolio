@@ -21,7 +21,8 @@ a {
 }
 
 p {
-  font-size: small;
+  font-size: 0.6rem;
+  margin: 0;
 }
 
 footer p,
@@ -48,6 +49,11 @@ span {
 
 .center-nav {
   left: 5%;
+}
+
+ul,
+li {
+  margin: 0;
 }
 
 .center-nav ul li:hover {
@@ -120,7 +126,7 @@ h1,
 h2 {
   font-family: 'Bodoni Moda', serif;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2rem;
   letter-spacing: 0.5rem;
   background-color: #008073;
 }
@@ -156,7 +162,7 @@ h2 {
 }
 
 .project_image {
-  height: 15rem;
+  height: 10rem;
   margin: 0;
   padding: 0;
 }
