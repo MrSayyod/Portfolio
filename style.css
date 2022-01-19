@@ -121,6 +121,13 @@ h2 {
   background-color: #008073;
 }
 
+@media (max-width: 576px) {
+  h1,
+  h2 {
+    letter-spacing: 0;
+  }
+}
+
 .with_hover_effects {
   transform: scale(1.01);
   margin-top: 10px;
